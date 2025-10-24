@@ -1,2 +1,10 @@
-const items = [4.6, 5.03, 7.99, 8.01];
-console.log(items[0]);
+function calculateMean(list) {
+  let total = 0;
+
+  for (const item of list) {
+    total += item;
+  }
+  return total / list.length;
+}
+console.log(calculateMean([10, 20, 30, 40, 60, 80, 80]));
+module.exports = { calculateMean };

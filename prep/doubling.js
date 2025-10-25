@@ -9,6 +9,6 @@ function doubleAllNumbers(numbers) {
   return doubledNumbers;
 }
 
-const numbers = [10, 20, 30];
-const result = doubleAllNumbers(numbers);
-console.log(result); // Should log [20, 40, 60]
+const oldArray = [10, 20, 30];
+const newArray = doubleAllNumbers(oldArray);
+console.log(newArray); // Should log [20, 40, 60]

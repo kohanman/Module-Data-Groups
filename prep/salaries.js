@@ -15,8 +15,8 @@ function calculateMean(list) {
 }
 
 const salaries = [10, 20, 30, 40, 60, 80, 80];
+console.log("List of Salaries:", salaries);
 const mean = calculateMean(salaries);
-console.log(salaries, "<--- salaries input before we call calculateMean");
 const median = calculateMedian(salaries);
 
 console.log(`The median salary is ${median}`);

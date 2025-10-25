@@ -1,0 +1,10 @@
+{
+  "name": "prep",
+  "description": "various coding examples for the Data Groups module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
